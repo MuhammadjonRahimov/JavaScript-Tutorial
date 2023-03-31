@@ -2,7 +2,7 @@
   "name": "clear",
   "version": "1.0.0",
   "description": "",
-  "main": "#9-lesson/index.js",
+  "main": "#10-lesson/index.js",
   "scripts": {
     "sdw": "set NODE_ENV=dev&&nodemon server.js",
     "spw": "set NODE_ENV=prod&&node server.js",
