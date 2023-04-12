@@ -59,9 +59,6 @@ set.add('string');
 console.log(set);
 console.log(set.has(obj));
 
-
-
-
 // WeakMap / WeakSet
 
 // let map2 = new Map(...)
