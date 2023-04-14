@@ -45,8 +45,6 @@ company = {
     }
 }
 
-
-
 const getCalc = (company) => {
     if (Array.isArray(company)) {
         return company.reduce((acc, elem) => acc += elem.salary, 0);
@@ -59,7 +57,8 @@ const getCalc = (company) => {
     }
 }
 
-getCalc(company);
+getCalc(company); // 21
+console.log(getCalc(company));
 
 // let sum = 0;
 // const getCalc = (company) => {
